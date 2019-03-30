@@ -4,16 +4,19 @@ name := "Scala for Machine Learning - 2nd Edition"
 
 version := "0.99.2"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.8"
+
+val akkaVersion = "2.5.21"
+val sparkVersion = "2.4.0"
 
 libraryDependencies ++= Seq(
-  "org.apache.commons" % "commons-math3" % "3.6",
-  "org.jfree" % "jfreechart" % "1.0.17",
-  "com.typesafe.akka" %% "akka-actor" % "2.3.8",
-  "org.apache.spark" %% "spark-core" % "2.1.0",
-  "org.apache.spark" %% "spark-mllib" % "2.1.0",
-  "org.apache.spark" %% "spark-streaming" % "2.1.0",
-  "org.scalatest" %% "scalatest" % "2.2.6"
+  "org.apache.commons" % "commons-math3" % "3.6.1",
+  "org.jfree" % "jfreechart" % "1.5.0",
+  "com.typesafe.akka" %% "akka-actor" % akkaVersion,
+  "org.apache.spark" %% "spark-core" % sparkVersion,
+  "org.apache.spark" %% "spark-mllib" % sparkVersion,
+  "org.apache.spark" %% "spark-streaming" % sparkVersion,
+  "org.scalatest" %% "scalatest" % "3.0.7"
 )
 
 // Resolver for Apache Spark framework

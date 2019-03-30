@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaml_2nd_edition.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaml_2nd_edition.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaml_2nd_edition-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaml_2nd_edition-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scala for Machine Learning - 2nd Edition.iml" filepath="$PROJECT_DIR$/.idea/modules/Scala for Machine Learning - 2nd Edition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Scala for Machine Learning - 2nd Edition-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Scala for Machine Learning - 2nd Edition-build.iml" />
     </modules>
   </component>
 </project>
